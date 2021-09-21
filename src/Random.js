@@ -25,6 +25,5 @@ if (props.asset.media_type !== "image"){
   </Card.Body>
 </Card>
 
-
   )
 }

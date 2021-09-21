@@ -31,7 +31,6 @@ export default function DateModal(props){
 
   return (
     <>
-
     <Modal
       show={show}
       onHide={handleClose}

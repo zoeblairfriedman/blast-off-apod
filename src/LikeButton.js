@@ -7,20 +7,20 @@ import Heart from "react-animated-heart"
 
 export default function LikeButton(props){
   
-  
 const [like, toggleLike] = useState(false)
 const [isClick, setClick] = useState(false)
+
 const handleClick = () => {
-let likeBtn = document.getElementById(props.asset.title)
- if (like === true){
-    toggleLike(false)
-    likeBtn.className="btn btn-primary"
-    likeBtn.innerText="Like"
- } else {
-    toggleLike(true)
-    likeBtn.className="btn btn-danger"
-    likeBtn.innerText="Unlike"
- }
+   let likeBtn = document.getElementById(props.asset.title)
+   if (like === true){
+      toggleLike(false)
+      likeBtn.className="btn btn-primary"
+      likeBtn.innerText="Like"
+   } else {
+      toggleLike(true)
+      likeBtn.className="btn btn-danger"
+      likeBtn.innerText="Unlike"
+   }
 }
 
   return (
@@ -32,7 +32,6 @@ let likeBtn = document.getElementById(props.asset.title)
             <Heart className="d-inline" isClick={isClick} onClick={() => setClick(!isClick)}/>
         </Col>
         <Col></Col>
-  
      </Row>
      </div>
   )

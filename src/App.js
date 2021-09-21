@@ -1,5 +1,3 @@
-
-
 import RandomContainer from './RandomContainer';
 import ChooseDate from './ChooseDate'
 import Row from 'react-bootstrap/Row'

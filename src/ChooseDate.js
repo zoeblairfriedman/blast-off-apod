@@ -5,9 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 
 
-
 export default function ChooseDate(){
-
 
   const [date, setDate] = useState("");
 
@@ -15,8 +13,6 @@ export default function ChooseDate(){
     setDate(newDate)
   }
 
-
-  
   return (
   <Container>
       <Row>
