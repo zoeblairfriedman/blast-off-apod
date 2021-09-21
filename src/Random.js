@@ -13,7 +13,7 @@ if (props.asset.media_type !== "image"){
 
   return (
 
-  <Card className="p-3 m-2 bg-dark" style={{ width: '20rem' }}>
+  <Card className="p-3 m-2 bg-dark" style={{ width: '25rem' }}>
     {visual}
   <Card.Body>
     <h3 className="text-primary">{props.asset.title}</h3>
