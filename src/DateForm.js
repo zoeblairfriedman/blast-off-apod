@@ -20,7 +20,7 @@ export default function DateForm(props){
   return (  
 
    <Row className="align-items-center mb-3"> 
-      <Col></Col>
+      <Col className="d-none d-sm-block"></Col>
       <Col>
         <Form onSubmit={(e) => handleSubmit(e)} className="border p-2 m-0 text-white">
         <Form.Label htmlFor="inlineFormInput" for="date">
@@ -30,7 +30,7 @@ export default function DateForm(props){
         <Button type="submit" id="go-btn" xs="auto" className="d-inline mx-1 text-white"> Go! </Button>
         </Form>
       </Col>
-    <Col></Col>
+    <Col className="d-none d-sm-block"></Col>
     </Row>
   
   
