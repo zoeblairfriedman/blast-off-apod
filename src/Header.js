@@ -9,7 +9,7 @@ export default function Header(){
         src="/tinyrocket.png"
         width="50"
         height="50"
-        className="my-5"
+        className="my-4"
         alt="React Bootstrap logo"
       />
     </Navbar.Brand>

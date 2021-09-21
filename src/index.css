@@ -21,13 +21,11 @@ body {
 }
 
 
-
-
 .wrapper span{
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Orbitron', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   display: inline-block;
   color: #fff;
   opacity: 0;
@@ -105,5 +103,16 @@ code {
   }
   .card{
     width: 50%;
+  }
+}
+
+.wrapper {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+      clear: both;
+      display: block;
   }
 }
