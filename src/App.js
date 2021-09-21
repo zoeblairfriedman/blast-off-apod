@@ -1,5 +1,6 @@
 
-import './App.css';
+// import './App.css';
+import "./sass/app.scss"
 import RandomContainer from './RandomContainer';
 import ChooseDate from './ChooseDate'
 import Row from 'react-bootstrap/Row'
