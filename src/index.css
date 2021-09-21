@@ -16,6 +16,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.modal-body {
+  background-color: black;
+}
+
+
+
+
 .wrapper span{
   font-weight: bold;
   text-transform: uppercase;

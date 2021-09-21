@@ -27,7 +27,7 @@ export default function DateForm(props){
           Date
         </Form.Label>
         <Form.Control type="date" name="date" className="mb-2 d-inline bg-secondary" onChange={handleChange} id="inlineFormInput"/>
-        <Button type="submit" xs="auto" className="d-inline mx-1 btn-success text-white"> Go! </Button>
+        <Button type="submit" id="go-btn" xs="auto" className="d-inline mx-1 text-white"> Go! </Button>
         </Form>
       </Col>
     <Col></Col>

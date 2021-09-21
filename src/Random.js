@@ -13,13 +13,13 @@ if (props.asset.media_type !== "image"){
 
   return (
 
-  <Card className="p-3 m-2 bg-dark" style={{ width: '30rem' }}>
+  <Card className="p-3 m-2 bg-dark" style={{ width: '20rem' }}>
     {visual}
   <Card.Body>
     <h3 className="text-primary">{props.asset.title}</h3>
     <Card.Text>
       <h4 className="text-secondary">{props.asset.date}</h4>
-      <p className="text-info">{props.asset.explanation}</p>
+      <p className="text-white">{props.asset.explanation}</p>
     </Card.Text>
     <LikeButton asset={props.asset}/>
   </Card.Body>
