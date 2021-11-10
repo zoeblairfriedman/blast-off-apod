@@ -6,9 +6,10 @@ test("calculates wordScore of 'agree' to equal 4489", () => {
   expect(wordScore("agree")).toBe(4489)
 })
 
-test("calculates wordScore of 'intelligently' to equal 3048625", () => {
-  expect(wordScore("intelligently")).toBe(3048625)
-})
+// test("calculates wordScore of 'intelligently' to equal 3048625", () => {
+//   expect(wordScore("intelligently")).toBe(3048625)
+// })
+
 
 // test for a word with uppercase characters
 test("calculates wordScore of 'TRUE' to equal 495", () => {
@@ -18,6 +19,10 @@ test("calculates wordScore of 'TRUE' to equal 495", () => {
 // test for a word with 'y' as the only vowel
 test("calculates wordScore of 'why' to equal 52", () => {
   expect(wordScore("why")).toBe(52)
+})
+
+test("calculates wordScore of 'intelligently' to equal 3048625", () => {
+  expect(wordScore("intelligently")).toBe(3048625)
 })
 
 // test for a word with a non-alphanumeric character
